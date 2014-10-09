@@ -21,3 +21,5 @@ $ docker start blog
 ```
 
 Now reload the blog in your browser and you will see the updates.
+
+**Also** see the `Dockerfile` for more info on volumes.

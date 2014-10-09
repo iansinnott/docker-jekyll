@@ -16,6 +16,8 @@ RUN gem install --no-rdoc --no-ri jekyll
 #    since images don't need to be running for their volume to exist. Volumes
 #    are stored on the underlying Docker somethign or other.. or is it the host?
 #    Still learning.
+#
+# See for more info: https://docs.docker.com/userguide/dockervolumes/
 
 # The /data and /var/www/html directories will become volumes.
 VOLUME ["/data", "/var/www/html"]
